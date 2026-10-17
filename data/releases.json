@@ -2,11 +2,97 @@
   "version": "v1.0.0",
   "repository": "Eric-Friedman-666/taiji-sgwb-time-domain",
   "replay": {
-    "url": "https://github.com/Eric-Friedman-666/taiji-sgwb-time-domain/releases/download/v1.0.0/lisa_td_paper_replay_data_20261017.tar.gz",
     "filename": "lisa_td_paper_replay_data_20261017.tar.gz",
     "bytes": 56274616,
     "sha256": "858b8b70c7ea53cc1340cbf55c24fbfeb4dc8594475772bee7312a3b1b736d9f",
-    "archive_prefix": "lisa_td_paper_release/"
+    "archive_prefix": "lisa_td_paper_release/",
+    "data_commit": "50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf",
+    "parts": [
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-00",
+        "bytes": 4194304,
+        "sha256": "a77674e9049f426fbb7091853126e4e9577c075d66c74ed876c8c630c8ee867d",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-00"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-01",
+        "bytes": 4194304,
+        "sha256": "d7d3f24a53c2df019218e7575a2c60069b649aa32424fcf5bee049cb6c008b00",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-01"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-02",
+        "bytes": 4194304,
+        "sha256": "be9e16601b871faed39eaf9d3b00ce7004d78c269422374fcad18fbfd256601b",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-02"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-03",
+        "bytes": 4194304,
+        "sha256": "3035b7200ac7ab1c05829e0106cfa4b8950c1d7f1a27c3d83b3bc1b8e058b763",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-03"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-04",
+        "bytes": 4194304,
+        "sha256": "a933a40068e16cea89bb8194f24ef4df734f61977a8ae1040638c1eedee505c7",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-04"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-05",
+        "bytes": 4194304,
+        "sha256": "04d7166afe41e15a11acf88049359b46e3ade3b13e1ec6e41d69ef1937569b4c",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-05"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-06",
+        "bytes": 4194304,
+        "sha256": "c274a30962aa550066a1351eaf52d9a7460be86b23b575e8d70115d7ab8cc8d5",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-06"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-07",
+        "bytes": 4194304,
+        "sha256": "790fe8789d536b465c5c42252e8c3ae4c3bf29e83147ae09c10fcac54099e36b",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-07"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-08",
+        "bytes": 4194304,
+        "sha256": "353b2fdb5239fa0165cc9ab97eb8b3feed354f338e2c7cf70cdb781b4f1d90d8",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-08"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-09",
+        "bytes": 4194304,
+        "sha256": "299cc60d383568208fb68e3503ae8d53f09ceb4647b571cb69a50ce85a986e0d",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-09"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-10",
+        "bytes": 4194304,
+        "sha256": "3298969ac6a5fd063fd3e9adf1f4f3ce3cb2779a3a48b75d1f3964451e3a517d",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-10"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-11",
+        "bytes": 4194304,
+        "sha256": "e93da479f026acad0dd6f6feeb3816dcccc570d29d0120a47ec3f5eacc33d1bc",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-11"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-12",
+        "bytes": 4194304,
+        "sha256": "d963beedd63a0814d10fe915aa8294b10cceccabdc694e8e790d7c74847ac144",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-12"
+      },
+      {
+        "filename": "lisa_td_paper_replay_data_20261017.tar.gz.part-13",
+        "bytes": 1748664,
+        "sha256": "3e1bcc40edbe0d41af3007b2ab9aa4dc14941a88202f315042716176015fd9d6",
+        "url": "https://raw.githubusercontent.com/Eric-Friedman-666/taiji-sgwb-time-domain/50ec3e8ff136e4a4d71ace2f3ce45a677e61dacf/lisa_td_paper_replay_data_20261017.tar.gz.part-13"
+      }
+    ]
   },
   "inference": {
     "filename": "lisa_td_paper_inference_data_20261017.tar.gz",

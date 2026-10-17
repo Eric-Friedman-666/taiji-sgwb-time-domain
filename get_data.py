@@ -32,14 +32,25 @@ def main():
     if not path.is_file():
         if args.archive:
             raise FileNotFoundError(path)
-        if not metadata.get("url"):
+        if not metadata.get("url") and not metadata.get("parts"):
             parser.error("The large inference archive is not attached to this release. Supply --archive for a separately obtained copy, or regenerate input bundles with the production scripts; see README.md.")
         path.parent.mkdir(parents=True, exist_ok=True)
         temporary = path.with_suffix(path.suffix + ".download")
         print(f"Downloading {metadata['filename']} ({metadata['bytes'] / 1e6:.1f} MB)", flush=True)
-        request = urllib.request.Request(metadata["url"], headers={"User-Agent": "taiji-sgwb-paper-reproduction"})
-        with urllib.request.urlopen(request, timeout=60) as source, temporary.open("wb") as target:
-            shutil.copyfileobj(source, target, length=1024 * 1024)
+        parts = metadata.get("parts", [metadata])
+        with temporary.open("wb") as target:
+            for index, part in enumerate(parts):
+                print(f"Downloading part {index + 1}/{len(parts)}", flush=True)
+                request = urllib.request.Request(part["url"], headers={"User-Agent": "taiji-sgwb-paper-reproduction"})
+                digest = hashlib.sha256()
+                size = 0
+                with urllib.request.urlopen(request, timeout=60) as source:
+                    while block := source.read(1024 * 1024):
+                        digest.update(block)
+                        size += len(block)
+                        target.write(block)
+                if size != part["bytes"] or digest.hexdigest() != part["sha256"]:
+                    raise RuntimeError(f"Data part checksum mismatch: {index + 1}")
         temporary.replace(path)
     if path.stat().st_size != metadata["bytes"] or checksum(path) != metadata["sha256"]:
         raise RuntimeError(f"Data archive checksum mismatch: {path}")

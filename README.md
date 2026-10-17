@@ -18,7 +18,7 @@ python get_data.py
 python reproduce.py all --output outputs
 ```
 
-`get_data.py` downloads the [paper-data release](https://github.com/Eric-Friedman-666/taiji-sgwb-time-domain/releases/tag/v1.0.0), verifies its SHA256, and extracts it into `data/`. The archive can also be downloaded manually:
+`get_data.py` downloads the [versioned paper data](https://github.com/Eric-Friedman-666/taiji-sgwb-time-domain/tree/paper-data-v1.0.0), assembles the archive, verifies its SHA256, and extracts it into `data/`. The numerical data are stored on a separate branch; the download URLs are pinned to the exact data commit. The assembled archive is 56,274,616 bytes (53.7 MiB). If you already have the complete archive, use:
 
 ```bash
 python get_data.py --archive /path/to/lisa_td_paper_replay_data_20261017.tar.gz
