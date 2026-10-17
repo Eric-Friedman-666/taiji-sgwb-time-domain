@@ -1,0 +1,10 @@
+{
+  "seed": 20360506,
+  "realization": 1,
+  "segments": 1,
+  "frequency_bins": 3281,
+  "matrix_entries": 29529,
+  "relative_frobenius_error": 1.7241956712411731e-12,
+  "seconds": 17.199537000153214,
+  "pass": true
+}

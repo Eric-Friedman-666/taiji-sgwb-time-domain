@@ -1,0 +1,378 @@
+{
+  "pe_settings": [
+    {
+      "path": "data/ch32_astro_formal_20260520/fd_equal/results/fd_equal_fullxyz_r00_seed2026052000_seg360_fmin1em04_fmax0p15_w0p01_ch32_fd_equal_fullxyz_20260520_bundle_bf_nlive1000_dwd_only.h5",
+      "pe_attrs": {
+        "created_at": "2026-05-21 02:52:49 +0800",
+        "dlogz": "0.1",
+        "fit_model": "dwd_only",
+        "frequency_bins_kept": "3419",
+        "include_ast": "False",
+        "label": "fd_equal_fullxyz_r00_seed2026052000_seg360_fmin1em04_fmax0p15_w0p01_ch32_fd_equal_fullxyz_20260520_bundle_bf_nlive1000_dwd_only",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "bf",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch32_astro_formal_20260520/fd_equal/bundles/fd_equal_fullxyz_r00_seed2026052000_seg360_fmin1em04_fmax0p15_w0p01_ch32_fd_equal_fullxyz_20260520_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch32_astro_formal_20260520/fd_equal/results/fd_equal_fullxyz_r00_seed2026052000_seg360_fmin1em04_fmax0p15_w0p01_ch32_fd_equal_fullxyz_20260520_bundle_formal_nlive1000_full8.h5",
+      "pe_attrs": {
+        "created_at": "2026-05-21 05:13:10 +0800",
+        "dlogz": "0.1",
+        "fit_model": "full8",
+        "frequency_bins_kept": "3419",
+        "include_ast": "True",
+        "label": "fd_equal_fullxyz_r00_seed2026052000_seg360_fmin1em04_fmax0p15_w0p01_ch32_fd_equal_fullxyz_20260520_bundle_formal_nlive1000_full8",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "formal",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch32_astro_formal_20260520/fd_equal/bundles/fd_equal_fullxyz_r00_seed2026052000_seg360_fmin1em04_fmax0p15_w0p01_ch32_fd_equal_fullxyz_20260520_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch32_astro_formal_20260520/fd_equal/results/mismatch_tdunequaldata_equalarmmodel_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_omastm11p5_bundle_bf_nlive1000_dwd_only.h5",
+      "pe_attrs": {
+        "created_at": "2026-07-04 14:55:47 +0800",
+        "dlogz": "0.1",
+        "fit_model": "dwd_only",
+        "frequency_bins_kept": "3419",
+        "include_ast": "False",
+        "label": "mismatch_tdunequaldata_equalarmmodel_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_omastm11p5_bundle_bf_nlive1000_dwd_only",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "bf",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch32_model_mismatch_20260630/equalarm_model_on_tdunequal_data/bundles/omastm11p5/mismatch_tdunequaldata_equalarmmodel_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_omastm11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch32_astro_formal_20260520/fd_equal/results/mismatch_tdunequaldata_equalarmmodel_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_omastm11p5_bundle_formal_nlive1000_full8.h5",
+      "pe_attrs": {
+        "created_at": "2026-07-02 07:10:25 +0800",
+        "dlogz": "0.1",
+        "fit_model": "full8",
+        "frequency_bins_kept": "3419",
+        "include_ast": "True",
+        "label": "mismatch_tdunequaldata_equalarmmodel_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_omastm11p5_bundle_formal_nlive1000_full8",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "formal",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch32_model_mismatch_20260630/equalarm_model_on_tdunequal_data/bundles/omastm11p5/mismatch_tdunequaldata_equalarmmodel_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_omastm11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch32_astro_formal_20260520/td_equal/results/td_equal_fullxyz_r00_seed3210481897_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_equal_fullxyz_20260520_omastm11p5_bundle_bf_nlive1000_dwd_only.h5",
+      "pe_attrs": {
+        "created_at": "2026-05-25 05:26:34 +0800",
+        "dlogz": "0.1",
+        "fit_model": "dwd_only",
+        "frequency_bins_kept": "3419",
+        "include_ast": "False",
+        "label": "td_equal_fullxyz_r00_seed3210481897_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_equal_fullxyz_20260520_omastm11p5_bundle_bf_nlive1000_dwd_only",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "bf",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch32_astro_formal_20260520/td_equal/bundles/omastm11p5/td_equal_fullxyz_r00_seed3210481897_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_equal_fullxyz_20260520_omastm11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch32_astro_formal_20260520/td_equal/results/td_equal_fullxyz_r00_seed3210481897_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_equal_fullxyz_20260520_omastm11p5_bundle_formal_nlive1000_full8.h5",
+      "pe_attrs": {
+        "created_at": "2026-05-24 22:27:29 +0800",
+        "dlogz": "0.1",
+        "fit_model": "full8",
+        "frequency_bins_kept": "3419",
+        "include_ast": "True",
+        "label": "td_equal_fullxyz_r00_seed3210481897_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_equal_fullxyz_20260520_omastm11p5_bundle_formal_nlive1000_full8",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "formal",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch32_astro_formal_20260520/td_equal/bundles/omastm11p5/td_equal_fullxyz_r00_seed3210481897_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_equal_fullxyz_20260520_omastm11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch32_astro_formal_20260520/td_unequal/results/td_unequal_fullxyz_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_unequal_fullxyz_20260520_omastm11p5_bundle_bf_nlive1000_dwd_only.h5",
+      "pe_attrs": {
+        "created_at": "2026-05-27 16:09:23 +0800",
+        "dlogz": "0.1",
+        "fit_model": "dwd_only",
+        "frequency_bins_kept": "3419",
+        "include_ast": "False",
+        "label": "td_unequal_fullxyz_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_unequal_fullxyz_20260520_omastm11p5_bundle_bf_nlive1000_dwd_only",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "bf",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch32_astro_formal_20260520/td_unequal/bundles/omastm11p5/td_unequal_fullxyz_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_unequal_fullxyz_20260520_omastm11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch32_astro_formal_20260520/td_unequal/results/td_unequal_fullxyz_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_unequal_fullxyz_20260520_omastm11p5_bundle_formal_nlive1000_full8.h5",
+      "pe_attrs": {
+        "created_at": "2026-05-27 01:54:00 +0800",
+        "dlogz": "0.1",
+        "fit_model": "full8",
+        "frequency_bins_kept": "3419",
+        "include_ast": "True",
+        "label": "td_unequal_fullxyz_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_unequal_fullxyz_20260520_omastm11p5_bundle_formal_nlive1000_full8",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "formal",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch32_astro_formal_20260520/td_unequal/bundles/omastm11p5/td_unequal_fullxyz_r00_seed38992598_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_unequal_fullxyz_20260520_omastm11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch33_sw10_fullxyz_20260531/fd_equal/results/fd_equal_fullxyz_r00_seed2026060255_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_fd_equal_fullxyz_20260531_om0m11p5_bundle_bf_nlive1000_no_sw.h5",
+      "pe_attrs": {
+        "created_at": "2026-06-05 12:10:35 +0800",
+        "dlogz": "0.1",
+        "fit_model": "no_sw",
+        "frequency_bins_kept": "3419",
+        "include_sw": "False",
+        "label": "fd_equal_fullxyz_r00_seed2026060255_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_fd_equal_fullxyz_20260531_om0m11p5_bundle_bf_nlive1000_no_sw",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "bf",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch33_sw10_fullxyz_20260531/fd_equal/bundles/fd_equal_fullxyz_r00_seed2026060255_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_fd_equal_fullxyz_20260531_om0m11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch33_sw10_fullxyz_20260531/fd_equal/results/fd_equal_fullxyz_r00_seed2026060255_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_fd_equal_fullxyz_20260531_om0m11p5_bundle_formal_nlive1000_full10.h5",
+      "pe_attrs": {
+        "created_at": "2026-06-05 06:14:44 +0800",
+        "dlogz": "0.1",
+        "fit_model": "full10",
+        "frequency_bins_kept": "3419",
+        "include_sw": "True",
+        "label": "fd_equal_fullxyz_r00_seed2026060255_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_fd_equal_fullxyz_20260531_om0m11p5_bundle_formal_nlive1000_full10",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "formal",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch33_sw10_fullxyz_20260531/fd_equal/bundles/fd_equal_fullxyz_r00_seed2026060255_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_fd_equal_fullxyz_20260531_om0m11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch33_sw10_fullxyz_20260531/td_equal/results/td_equal_fullxyz_r00_seed2026069815_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_equal_fullxyz_20260531_om0m11p5_bundle_bf_nlive1000_no_sw.h5",
+      "pe_attrs": {
+        "created_at": "2026-06-18 15:34:38 +0800",
+        "dlogz": "0.1",
+        "fit_model": "no_sw",
+        "frequency_bins_kept": "3419",
+        "include_sw": "False",
+        "label": "td_equal_fullxyz_r00_seed2026069815_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_equal_fullxyz_20260531_om0m11p5_bundle_bf_nlive1000_no_sw",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "bf",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch33_sw10_fullxyz_20260531/td_equal/bundles/om0m11p5/td_equal_fullxyz_r00_seed2026069815_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_equal_fullxyz_20260531_om0m11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch33_sw10_fullxyz_20260531/td_equal/results/td_equal_fullxyz_r00_seed2026069815_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_equal_fullxyz_20260531_om0m11p5_bundle_formal_nlive1000_full10.h5",
+      "pe_attrs": {
+        "created_at": "2026-06-18 08:05:20 +0800",
+        "dlogz": "0.1",
+        "fit_model": "full10",
+        "frequency_bins_kept": "3419",
+        "include_sw": "True",
+        "label": "td_equal_fullxyz_r00_seed2026069815_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_equal_fullxyz_20260531_om0m11p5_bundle_formal_nlive1000_full10",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "formal",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch33_sw10_fullxyz_20260531/td_equal/bundles/om0m11p5/td_equal_fullxyz_r00_seed2026069815_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_equal_fullxyz_20260531_om0m11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch33_sw10_fullxyz_20260531/td_unequal/results/td_unequal_fullxyz_r00_seed2026069415_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_unequal_fullxyz_20260531_om0m11p5_bundle_bf_nlive1000_no_sw.h5",
+      "pe_attrs": {
+        "created_at": "2026-06-19 14:20:17 +0800",
+        "dlogz": "0.1",
+        "fit_model": "no_sw",
+        "frequency_bins_kept": "3419",
+        "include_sw": "False",
+        "label": "td_unequal_fullxyz_r00_seed2026069415_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_unequal_fullxyz_20260531_om0m11p5_bundle_bf_nlive1000_no_sw",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "bf",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch33_sw10_fullxyz_20260531/td_unequal/bundles/om0m11p5/td_unequal_fullxyz_r00_seed2026069415_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_unequal_fullxyz_20260531_om0m11p5_bundle.h5",
+      "source_bundle_exists": true
+    },
+    {
+      "path": "data/ch33_sw10_fullxyz_20260531/td_unequal/results/td_unequal_fullxyz_r00_seed2026069415_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_unequal_fullxyz_20260531_om0m11p5_bundle_formal_nlive1000_full10.h5",
+      "pe_attrs": {
+        "created_at": "2026-06-19 03:39:44 +0800",
+        "dlogz": "0.1",
+        "fit_model": "full10",
+        "frequency_bins_kept": "3419",
+        "include_sw": "True",
+        "label": "td_unequal_fullxyz_r00_seed2026069415_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_unequal_fullxyz_20260531_om0m11p5_bundle_formal_nlive1000_full10",
+        "likelihood_factor": "6912.000000000001",
+        "likelihood_log_const": "29.957232588999876",
+        "nlive": "1000",
+        "sampler": "Bilby.dynesty",
+        "segments": "360",
+        "stage": "formal",
+        "walks": "64"
+      },
+      "source_bundle": "data/ch33_sw10_fullxyz_20260531/td_unequal/bundles/om0m11p5/td_unequal_fullxyz_r00_seed2026069415_seg360_fmin1em04_fmax0p15_w0p01_ch33_sw10_td_unequal_fullxyz_20260531_om0m11p5_bundle.h5",
+      "source_bundle_exists": true
+    }
+  ],
+  "input_stats": {
+    "data/ch32_astro_formal_20260520/precomputed_tables/ch32_response_noise_fullfreq_20260521/ch32_response_noise_fullfreq_20260521_equal_unequal_fullfreq_seg360.h5": {
+      "bytes": 2496829015,
+      "attrs": {
+        "basis": "full XYZ 3x3 covariance with off-diagonal terms",
+        "campaign": "ch32_astro_formal_20260520",
+        "channels": "X,Y,Z",
+        "description": "Ch.3.2 full-frequency equal/unequal full-covariance XYZ response/noise tables",
+        "frequency_dataset": "frequency_full",
+        "frequency_mask_applied": "False",
+        "frequency_source": "data/ch32_astro_formal_20260520/td_equal/data/td_equal_fullxyz_r00_seed2026052000_seg360_fmin1em04_fmax0p15_w0p01_ch32_td_equal_fullxyz_20260520.h5",
+        "full_frequency": "True",
+        "n_source": "1024",
+        "orbit_type": "equal+unequal",
+        "orientation": "left-conjugated covariance: matrix[i,j] = <d_i^* d_j>",
+        "response_seed": "20260520",
+        "run_tag": "ch32_response_noise_fullfreq_20260521",
+        "segment_days": "1.0",
+        "segments": "360",
+        "tdi_generation": "2"
+      },
+      "frequency_shape": [
+        17180
+      ],
+      "equal/response_shape": [
+        360,
+        17180,
+        3,
+        3
+      ],
+      "unequal/response_shape": [
+        360,
+        17180,
+        3,
+        3
+      ]
+    },
+    "data/xyz4_10seg_1day_parts_20260506/xyz4_10seg_1day_r00_10d_allfreq_20260506.h5": {
+      "bytes": 14321926,
+      "attrs": {
+        "channels": "X,Y,Z",
+        "complete": "True",
+        "description": "One independent unequal-arm 2nd TDI XYZ full-covariance realization",
+        "generation": "all positive FFT frequencies; PE cuts are applied later",
+        "model": "noise+ast",
+        "orientation": "left-conjugated CSD: matrix[i,j] = <d_i^* d_j>; trace(inv(P_star) @ obs_csd_star) equals d^dagger P^{-1} d",
+        "realization_index": "0"
+      },
+      "frequency_shape": [
+        17180
+      ]
+    }
+  },
+  "runtime_packages": {
+    "plot": {
+      "python": "3.11.13",
+      "numpy": "1.26.4",
+      "scipy": "1.10.0",
+      "h5py": "3.14.0",
+      "bilby": "2.6.0",
+      "dynesty": "2.1.5",
+      "jax": "0.4.25",
+      "jaxlib": "0.4.25",
+      "healpy": "1.17.3",
+      "getdist": "1.7.2",
+      "corner": "2.2.3"
+    },
+    "lisa_triangle": {
+      "python": "3.9.19",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "h5py": "3.14.0",
+      "bilby": "2.3.0",
+      "dynesty": "2.1.5",
+      "jax": "0.4.30",
+      "jaxlib": "0.4.30",
+      "healpy": "1.17.3",
+      "getdist": null,
+      "corner": "2.2.3"
+    },
+    "bilby_gpu": {
+      "python": "3.10.18",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "h5py": "3.14.0",
+      "bilby": "2.6.0",
+      "dynesty": "2.1.5",
+      "jax": "0.6.2",
+      "jaxlib": "0.6.2",
+      "healpy": null,
+      "getdist": null,
+      "corner": "2.2.3"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fit_032",
+    "archived_gpu_truth_loglike": 298514175.0482997,
+    "original_cpu_jax": 298514175.0481491,
+    "portable_cpu_jax": 298514175.0482533,
+    "portable_numpy": 298514175.04805565,
+    "portable_vs_original_cpu": 0.00010418891906738281,
+    "max_condition_number": 24732507.538755048,
+    "source_array_checks": [
+      {
+        "dataset": "frequency",
+        "exact": true
+      },
+      {
+        "dataset": "parameters_true",
+        "exact": true
+      },
+      {
+        "dataset": "data/obs_csd_star",
+        "exact": true
+      },
+      {
+        "dataset": "tables/response",
+        "exact": true
+      },
+      {
+        "dataset": "tables/acc_transfer",
+        "exact": true
+      },
+      {
+        "dataset": "tables/oms_transfer",
+        "exact": true
+      }
+    ]
+  },
+  {
+    "id": "fit_033",
+    "archived_gpu_truth_loglike": 298552344.4581435,
+    "original_cpu_jax": 298552344.4580791,
+    "portable_cpu_jax": 298552344.45814246,
+    "portable_numpy": 298552344.4579022,
+    "portable_vs_original_cpu": 6.335973739624023e-05,
+    "max_condition_number": 24737403.425089307,
+    "source_array_checks": [
+      {
+        "dataset": "frequency",
+        "exact": true
+      },
+      {
+        "dataset": "parameters_true",
+        "exact": true
+      },
+      {
+        "dataset": "data/obs_csd_star",
+        "exact": true
+      },
+      {
+        "dataset": "tables/response",
+        "exact": true
+      },
+      {
+        "dataset": "tables/acc_transfer",
+        "exact": true
+      },
+      {
+        "dataset": "tables/oms_transfer",
+        "exact": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "version": "v1.0.0",
+  "repository": "Eric-Friedman-666/taiji-sgwb-time-domain",
+  "replay": {
+    "url": "https://github.com/Eric-Friedman-666/taiji-sgwb-time-domain/releases/download/v1.0.0/lisa_td_paper_replay_data_20261017.tar.gz",
+    "filename": "lisa_td_paper_replay_data_20261017.tar.gz",
+    "bytes": 56274616,
+    "sha256": "858b8b70c7ea53cc1340cbf55c24fbfeb4dc8594475772bee7312a3b1b736d9f",
+    "archive_prefix": "lisa_td_paper_release/"
+  },
+  "inference": {
+    "filename": "lisa_td_paper_inference_data_20261017.tar.gz",
+    "bytes": 5682163276,
+    "sha256": "6ad89e5d1cee699ff734c59fc3d78c495dad399fb19b014a0387426cc2e245bf",
+    "data_bytes": 5685655626,
+    "data_sha256": "fad03846c16ae89501f5d6624a5c612a33116f4ff38de4a24999c78b97bf58f3",
+    "archive_prefix": "lisa_td_paper_release/"
+  }
+}

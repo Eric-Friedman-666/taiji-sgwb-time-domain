@@ -1,0 +1,72 @@
+[
+  {
+    "table": 4,
+    "label": "tab:astro8summary",
+    "row": 1,
+    "column": 2,
+    "published": 377.0,
+    "direct_value": 376.4117723983113,
+    "corrected_rounded": 376.0,
+    "cause": "The manuscript notebook rescaled previously rounded legacy SNR values by 1/sqrt(2), rather than recalculating before rounding."
+  },
+  {
+    "table": 4,
+    "label": "tab:astro8summary",
+    "row": 3,
+    "column": 2,
+    "published": 238.0,
+    "direct_value": 237.49977234352176,
+    "corrected_rounded": 237.0,
+    "cause": "The manuscript notebook rescaled previously rounded legacy SNR values by 1/sqrt(2), rather than recalculating before rounding."
+  },
+  {
+    "table": 4,
+    "label": "tab:astro8summary",
+    "row": 5,
+    "column": 2,
+    "published": 151.0,
+    "direct_value": 149.85222567251856,
+    "corrected_rounded": 150.0,
+    "cause": "The manuscript notebook rescaled previously rounded legacy SNR values by 1/sqrt(2), rather than recalculating before rounding."
+  },
+  {
+    "table": 4,
+    "label": "tab:astro8summary",
+    "row": 8,
+    "column": 2,
+    "published": 76.0,
+    "direct_value": 75.10402243769948,
+    "corrected_rounded": 75.0,
+    "cause": "The manuscript notebook rescaled previously rounded legacy SNR values by 1/sqrt(2), rather than recalculating before rounding."
+  },
+  {
+    "table": 4,
+    "label": "tab:astro8summary",
+    "row": 9,
+    "column": 2,
+    "published": 59.0,
+    "direct_value": 59.65724556363046,
+    "corrected_rounded": 60.0,
+    "cause": "The manuscript notebook rescaled previously rounded legacy SNR values by 1/sqrt(2), rather than recalculating before rounding."
+  },
+  {
+    "table": 4,
+    "label": "tab:astro8summary",
+    "row": 9,
+    "column": 3,
+    "published": 52.0,
+    "direct_value": 52.554487762463744,
+    "corrected_rounded": 53.0,
+    "cause": "The manuscript notebook rescaled previously rounded legacy SNR values by 1/sqrt(2), rather than recalculating before rounding."
+  },
+  {
+    "table": 4,
+    "label": "tab:astro8summary",
+    "row": 11,
+    "column": 2,
+    "published": 37.0,
+    "direct_value": 37.64117723983113,
+    "corrected_rounded": 38.0,
+    "cause": "The manuscript notebook rescaled previously rounded legacy SNR values by 1/sqrt(2), rather than recalculating before rounding."
+  }
+]

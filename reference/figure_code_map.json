@@ -1,0 +1,140 @@
+[
+  {
+    "figure": "1",
+    "file": "figure/auto_ru.png",
+    "plotting_cells": [
+      "paper_cells/cell_19.py",
+      "paper_cells/cell_21.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  },
+  {
+    "figure": "2",
+    "file": "figure/cross_ru.png",
+    "plotting_cells": [
+      "paper_cells/cell_19.py",
+      "paper_cells/cell_23.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  },
+  {
+    "figure": "3",
+    "file": "figure/4para_corner.png",
+    "plotting_cells": [
+      "paper_cells/cell_27.py"
+    ],
+    "inputs": "Exact posterior and null paths in data/cases.json",
+    "regenerated": true
+  },
+  {
+    "figure": "4",
+    "file": "figure/4para_unbias_check.png",
+    "plotting_cells": [
+      "paper_cells/cell_29.py"
+    ],
+    "inputs": "Exact posterior and null paths in data/cases.json",
+    "regenerated": true
+  },
+  {
+    "figure": "5",
+    "file": "figure/8para_corner.png",
+    "plotting_cells": [
+      "paper_cells/cell_33.py"
+    ],
+    "inputs": "Exact posterior and null paths in data/cases.json",
+    "regenerated": true
+  },
+  {
+    "figure": "6",
+    "file": "figure/ast_scan.png",
+    "plotting_cells": [
+      "paper_cells/cell_37.py"
+    ],
+    "inputs": "Exact posterior and null paths in data/cases.json",
+    "regenerated": true
+  },
+  {
+    "figure": "7",
+    "file": "figure/8para_corner_mismatch.png",
+    "plotting_cells": [
+      "paper_cells/cell_35.py"
+    ],
+    "inputs": "Exact posterior and null paths in data/cases.json",
+    "regenerated": true
+  },
+  {
+    "figure": "8",
+    "file": "figure/10para_corner.png",
+    "plotting_cells": [
+      "paper_cells/cell_41.py",
+      "paper_cells/cell_43.py"
+    ],
+    "inputs": "Exact posterior and null paths in data/cases.json",
+    "regenerated": true
+  },
+  {
+    "figure": "A.1",
+    "file": "figure/ACC_validation.png",
+    "plotting_cells": [
+      "paper_cells/cell_07.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  },
+  {
+    "figure": "A.2",
+    "file": "figure/OMS_validation.png",
+    "plotting_cells": [
+      "paper_cells/cell_09.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  },
+  {
+    "figure": "A.3",
+    "file": "figure/R_validation.png",
+    "plotting_cells": [
+      "paper_cells/cell_11.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  },
+  {
+    "figure": "A.4",
+    "file": "figure/ACC_ratio.png",
+    "plotting_cells": [
+      "paper_cells/cell_13.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  },
+  {
+    "figure": "A.5",
+    "file": "figure/OMS_ratio.png",
+    "plotting_cells": [
+      "paper_cells/cell_15.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  },
+  {
+    "figure": "A.6",
+    "file": "figure/R_ratio.png",
+    "plotting_cells": [
+      "paper_cells/cell_17.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  },
+  {
+    "figure": "A.7",
+    "file": "figure/PSD_ratio.png",
+    "plotting_cells": [
+      "paper_cells/cell_19.py"
+    ],
+    "inputs": "data/plot_inputs.h5",
+    "regenerated": true
+  }
+]

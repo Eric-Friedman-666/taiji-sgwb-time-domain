@@ -1,0 +1,217 @@
+{
+  "scope": "Bounded end-to-end checks against the original production data.\n\nThis checks the complete 360-segment FD observation generator, the likelihood\nnormalization, analytic Fisher derivatives, and (with --td) two complete\none-day Triangle simulations. It does not rerun 84 production samplers.\n",
+  "production_inference_rerun": false,
+  "fd": {
+    "relative_frobenius_error": 2.10235192444004e-17,
+    "max_absolute_error": 4.0091470651382935e-51,
+    "entries": 92313,
+    "truth_loglike": 299427156.32129645,
+    "jax_truth_loglike": 299427156.3213017,
+    "reference_truth_loglike": 299427156.32129824,
+    "likelihood_absolute_error": 1.7881393432617188e-06,
+    "jax_absolute_error": 3.4570693969726562e-06,
+    "generated_segments": 360,
+    "comparison_segments": [
+      0,
+      1,
+      359
+    ],
+    "frequency_bins": 3419,
+    "scope": "Full original 360-segment FD generator; observations checked at segments 0, 1 and 359; full-data likelihood checked",
+    "pass": true
+  },
+  "fisher_derivatives": [
+    {
+      "model_dimensions": 8,
+      "parameter_index": 0,
+      "covariance_relative_error": 7.66235959924557e-17,
+      "relative_frobenius_error": 9.250716563499381e-12,
+      "max_absolute_error": 6.734254403062657e-52,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 8,
+      "parameter_index": 1,
+      "covariance_relative_error": 7.66235959924557e-17,
+      "relative_frobenius_error": 3.44685471175236e-12,
+      "max_absolute_error": 3.801499642020703e-52,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 8,
+      "parameter_index": 2,
+      "covariance_relative_error": 7.66235959924557e-17,
+      "relative_frobenius_error": 2.0957868475676626e-08,
+      "max_absolute_error": 4.506741212830977e-48,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 8,
+      "parameter_index": 3,
+      "covariance_relative_error": 7.66235959924557e-17,
+      "relative_frobenius_error": 3.297002974607112e-09,
+      "max_absolute_error": 7.181749689647647e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 8,
+      "parameter_index": 4,
+      "covariance_relative_error": 7.66235959924557e-17,
+      "relative_frobenius_error": 1.5080664387299502e-09,
+      "max_absolute_error": 1.977703960096046e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 8,
+      "parameter_index": 5,
+      "covariance_relative_error": 7.66235959924557e-17,
+      "relative_frobenius_error": 2.4015727489636098e-09,
+      "max_absolute_error": 2.524503088848507e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 8,
+      "parameter_index": 6,
+      "covariance_relative_error": 7.66235959924557e-17,
+      "relative_frobenius_error": 1.1679367776776636e-08,
+      "max_absolute_error": 7.568263457032133e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 8,
+      "parameter_index": 7,
+      "covariance_relative_error": 7.66235959924557e-17,
+      "relative_frobenius_error": 8.91288221748941e-11,
+      "max_absolute_error": 6.6636103353554e-51,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 0,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 9.146262998629557e-12,
+      "max_absolute_error": 6.418771225717275e-52,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 1,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 3.4499443160836067e-12,
+      "max_absolute_error": 5.35156532681729e-52,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 2,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 2.0957930772520123e-08,
+      "max_absolute_error": 4.506741212830977e-48,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 3,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 3.296837550539206e-09,
+      "max_absolute_error": 7.181749689647647e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 4,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 1.5086059896463778e-09,
+      "max_absolute_error": 1.977703960096046e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 5,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 2.40117803779212e-09,
+      "max_absolute_error": 2.522858610164689e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 6,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 1.1679571200116422e-08,
+      "max_absolute_error": 7.568263457032133e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 7,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 8.978146529347625e-11,
+      "max_absolute_error": 7.135379652603462e-51,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 8,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 1.167886374636064e-08,
+      "max_absolute_error": 1.6504302967716375e-49,
+      "entries": 279,
+      "pass": true
+    },
+    {
+      "model_dimensions": 10,
+      "parameter_index": 9,
+      "covariance_relative_error": 8.520328024097272e-17,
+      "relative_frobenius_error": 3.3383070056673495e-09,
+      "max_absolute_error": 6.516211609159192e-50,
+      "entries": 279,
+      "pass": true
+    }
+  ],
+  "td_equal_ast": {
+    "relative_frobenius_error": 4.762549806023893e-12,
+    "max_absolute_error": 1.1464022394527446e-46,
+    "entries": 30771,
+    "seed": 3210481897,
+    "orbit_type": "equal",
+    "segment": 0,
+    "segment_days": 1,
+    "frequency_bins": 3419,
+    "seconds": 17.015169583261013,
+    "scope": "Complete first one-day TD signal+noise simulation; every retained bin and all nine XYZ covariance entries",
+    "tolerance": 1e-07,
+    "pass": true
+  },
+  "td_unequal_sw": {
+    "relative_frobenius_error": 1.9326220400834622e-12,
+    "max_absolute_error": 4.068014707878074e-47,
+    "entries": 30771,
+    "seed": 2026069415,
+    "orbit_type": "unequal",
+    "segment": 0,
+    "segment_days": 1,
+    "frequency_bins": 3419,
+    "seconds": 16.940948457922786,
+    "scope": "Complete first one-day TD signal+noise simulation; every retained bin and all nine XYZ covariance entries",
+    "tolerance": 1e-07,
+    "pass": true
+  },
+  "status": "PASS",
+  "seconds": 35.42100637499243
+}
