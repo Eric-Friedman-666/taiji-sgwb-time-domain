@@ -1,6 +1,0 @@
--r requirements-replay.txt
-bilby==2.6.0
-dynesty==2.1.5
-jax==0.4.30
-jaxlib==0.4.30
-healpy==1.17.3
